@@ -13,6 +13,16 @@
 		F8B55C0B1E82742A00434373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B55C091E82742A00434373 /* Main.storyboard */; };
 		F8B55C0D1E82742A00434373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B55C0C1E82742A00434373 /* Assets.xcassets */; };
 		F8B55C101E82742A00434373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B55C0E1E82742A00434373 /* LaunchScreen.storyboard */; };
+		F8B55C2A1E82745200434373 /* ScanSuccessJumpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B55C1A1E82745200434373 /* ScanSuccessJumpVC.m */; };
+		F8B55C2B1E82745200434373 /* SGGenerateQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B55C1C1E82745200434373 /* SGGenerateQRCodeVC.m */; };
+		F8B55C2C1E82745200434373 /* SGScanningQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B55C1E1E82745200434373 /* SGScanningQRCodeVC.m */; };
+		F8B55C2D1E82745200434373 /* SGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B55C211E82745200434373 /* SGAlertView.m */; };
+		F8B55C2E1E82745200434373 /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = F8B55C231E82745200434373 /* sound.caf */; };
+		F8B55C2F1E82745200434373 /* SGQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B55C261E82745200434373 /* SGQRCodeTool.m */; };
+		F8B55C301E82745200434373 /* SGScanningQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B55C291E82745200434373 /* SGScanningQRCodeView.m */; };
+		F8B55C331E82769D00434373 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B55C321E82769D00434373 /* AVFoundation.framework */; };
+		F8B55C351E8276AF00434373 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B55C341E8276AF00434373 /* CoreMedia.framework */; };
+		F8B55C371E8276C100434373 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B55C361E8276C100434373 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,22 @@
 		F8B55C0C1E82742A00434373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B55C0F1E82742A00434373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B55C111E82742A00434373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B55C191E82745200434373 /* ScanSuccessJumpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanSuccessJumpVC.h; sourceTree = "<group>"; };
+		F8B55C1A1E82745200434373 /* ScanSuccessJumpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanSuccessJumpVC.m; sourceTree = "<group>"; };
+		F8B55C1B1E82745200434373 /* SGGenerateQRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGGenerateQRCodeVC.h; sourceTree = "<group>"; };
+		F8B55C1C1E82745200434373 /* SGGenerateQRCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGenerateQRCodeVC.m; sourceTree = "<group>"; };
+		F8B55C1D1E82745200434373 /* SGScanningQRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGScanningQRCodeVC.h; sourceTree = "<group>"; };
+		F8B55C1E1E82745200434373 /* SGScanningQRCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGScanningQRCodeVC.m; sourceTree = "<group>"; };
+		F8B55C201E82745200434373 /* SGAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAlertView.h; sourceTree = "<group>"; };
+		F8B55C211E82745200434373 /* SGAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGAlertView.m; sourceTree = "<group>"; };
+		F8B55C231E82745200434373 /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
+		F8B55C251E82745200434373 /* SGQRCodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeTool.h; sourceTree = "<group>"; };
+		F8B55C261E82745200434373 /* SGQRCodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeTool.m; sourceTree = "<group>"; };
+		F8B55C281E82745200434373 /* SGScanningQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGScanningQRCodeView.h; sourceTree = "<group>"; };
+		F8B55C291E82745200434373 /* SGScanningQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGScanningQRCodeView.m; sourceTree = "<group>"; };
+		F8B55C321E82769D00434373 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F8B55C341E8276AF00434373 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F8B55C361E8276C100434373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B55C371E8276C100434373 /* CoreGraphics.framework in Frameworks */,
+				F8B55C351E8276AF00434373 /* CoreMedia.framework in Frameworks */,
+				F8B55C331E82769D00434373 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +73,7 @@
 			children = (
 				F8B55BFF1E82742A00434373 /* qqqq */,
 				F8B55BFE1E82742A00434373 /* Products */,
+				F8B55C311E82769D00434373 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +94,7 @@
 				F8B55C071E82742A00434373 /* ViewController.m */,
 				F8B55C091E82742A00434373 /* Main.storyboard */,
 				F8B55C0C1E82742A00434373 /* Assets.xcassets */,
+				F8B55C171E82745200434373 /* SGQRCode */,
 				F8B55C0E1E82742A00434373 /* LaunchScreen.storyboard */,
 				F8B55C111E82742A00434373 /* Info.plist */,
 				F8B55C001E82742A00434373 /* Supporting Files */,
@@ -77,6 +108,76 @@
 				F8B55C011E82742A00434373 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8B55C171E82745200434373 /* SGQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				F8B55C181E82745200434373 /* Controller */,
+				F8B55C1F1E82745200434373 /* SGAlertView */,
+				F8B55C221E82745200434373 /* Sound */,
+				F8B55C241E82745200434373 /* Tool */,
+				F8B55C271E82745200434373 /* View */,
+			);
+			path = SGQRCode;
+			sourceTree = "<group>";
+		};
+		F8B55C181E82745200434373 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F8B55C191E82745200434373 /* ScanSuccessJumpVC.h */,
+				F8B55C1A1E82745200434373 /* ScanSuccessJumpVC.m */,
+				F8B55C1B1E82745200434373 /* SGGenerateQRCodeVC.h */,
+				F8B55C1C1E82745200434373 /* SGGenerateQRCodeVC.m */,
+				F8B55C1D1E82745200434373 /* SGScanningQRCodeVC.h */,
+				F8B55C1E1E82745200434373 /* SGScanningQRCodeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F8B55C1F1E82745200434373 /* SGAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F8B55C201E82745200434373 /* SGAlertView.h */,
+				F8B55C211E82745200434373 /* SGAlertView.m */,
+			);
+			path = SGAlertView;
+			sourceTree = "<group>";
+		};
+		F8B55C221E82745200434373 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F8B55C231E82745200434373 /* sound.caf */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		F8B55C241E82745200434373 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F8B55C251E82745200434373 /* SGQRCodeTool.h */,
+				F8B55C261E82745200434373 /* SGQRCodeTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F8B55C271E82745200434373 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8B55C281E82745200434373 /* SGScanningQRCodeView.h */,
+				F8B55C291E82745200434373 /* SGScanningQRCodeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8B55C311E82769D00434373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8B55C361E8276C100434373 /* CoreGraphics.framework */,
+				F8B55C341E8276AF00434373 /* CoreMedia.framework */,
+				F8B55C321E82769D00434373 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +241,7 @@
 			files = (
 				F8B55C101E82742A00434373 /* LaunchScreen.storyboard in Resources */,
 				F8B55C0D1E82742A00434373 /* Assets.xcassets in Resources */,
+				F8B55C2E1E82745200434373 /* sound.caf in Resources */,
 				F8B55C0B1E82742A00434373 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,8 +254,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B55C081E82742A00434373 /* ViewController.m in Sources */,
+				F8B55C2C1E82745200434373 /* SGScanningQRCodeVC.m in Sources */,
+				F8B55C2A1E82745200434373 /* ScanSuccessJumpVC.m in Sources */,
+				F8B55C301E82745200434373 /* SGScanningQRCodeView.m in Sources */,
 				F8B55C051E82742A00434373 /* AppDelegate.m in Sources */,
+				F8B55C2D1E82745200434373 /* SGAlertView.m in Sources */,
+				F8B55C2B1E82745200434373 /* SGGenerateQRCodeVC.m in Sources */,
 				F8B55C021E82742A00434373 /* main.m in Sources */,
+				F8B55C2F1E82745200434373 /* SGQRCodeTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +381,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9266GAZZ3C;
 				INFOPLIST_FILE = qqqq/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yunmei.qqqq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9266GAZZ3C;
 				INFOPLIST_FILE = qqqq/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yunmei.qqqq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
